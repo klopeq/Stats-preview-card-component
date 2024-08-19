@@ -31,7 +31,7 @@ body {
 .container  .content-page .left-box {
     background-color: var(--dark-desaturated-blue);
     padding: 40px;
-    height: 53vh;
+    height: 62vh;
     width: 500px;
     border-radius:10px 0  0 10px;
     text-align: center;
@@ -69,18 +69,19 @@ body {
 }
 
 
-
 .container  .content-page  .right-box {
     background: url(images/image-header-desktop.jpg) center center/cover no-repeat;
     width: 360px;
-    height: 53vh;
+    height: 62vh;
     object-fit: cover;
     border-radius: 0 10px 10px 0;
 }
 
+
 @media (max-width: 500px) {
     .container  .content-page {
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     .container  .content-page .left-box {
@@ -88,8 +89,25 @@ body {
         border-top-right-radius: 0;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-        height: 70vh;
-        width:  350px;
+        width: 300px;
+        height: 60vh;
+        margin-bottom: 2rem;
+        padding: 10px;
+    }
+
+    .container  .content-page .left-box h2 {
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 10px;
+        padding: 10px 0;
+    }
+
+    .container  .content-page .left-box p  {
+        padding: 0 25px;
+    }
+
+    .container  .content-page .left-box .numbers p span {
+        font-size: 18px;
     }
 
     .container  .content-page .right-box {
@@ -98,7 +116,7 @@ body {
         border-top-right-radius: 10px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        width: 350px;
+        width: 300px;
         height: 30vh;
     }
 
