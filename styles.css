@@ -31,7 +31,7 @@ body {
 .container  .content-page .left-box {
     background-color: var(--dark-desaturated-blue);
     padding: 40px;
-    height: 62vh;
+    height: 60vh;
     width: 500px;
     border-radius:10px 0  0 10px;
     text-align: center;
@@ -72,7 +72,7 @@ body {
 .container  .content-page  .right-box {
     background: url(images/image-header-desktop.jpg) center center/cover no-repeat;
     width: 360px;
-    height: 62vh;
+    height: 53vh;
     object-fit: cover;
     border-radius: 0 10px 10px 0;
 }
